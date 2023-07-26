@@ -7,10 +7,15 @@ import "./styles/main.css";
 import "bootstrap/dist/css/bootstrap.min.css";
 import "bootstrap/dist/js/bootstrap.js";
 
+//componentes
+import Navbar from "./components/Navbar";
+import Header from "./components/Header";
+
 function App() {
   return (
     <>
-      <h1 className="corPrimaria">Olá mundo</h1>
+      <Navbar />
+      <Header />
     </>
   );
 }
