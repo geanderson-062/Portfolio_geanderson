@@ -21,7 +21,7 @@ function SkillIcons() {
       }}
     >
       <div
-        className="row row-cols-1 row-cols-md-2 g-4"
+        className="row row-cols-1 row-cols-md-3 g-4"
         style={{
           marginTop: 15,
           marginBlockEnd: 30,
