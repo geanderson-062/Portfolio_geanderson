@@ -6,7 +6,7 @@ export default class Text_sobre extends Component {
     return (
       <h6
         className="text-center corTitulo2 fs-6"
-        style={{ marginLeft: "31%", marginRight: "31%", marginTop: 25 }}
+        style={{ marginLeft: "25%", marginRight: "25%", marginTop: 25 }}
       >
         Sou um desenvolvedor front-end altamente motivado e apaixonado por criar
         experiências digitais incríveis e envolventes. Com uma formação em

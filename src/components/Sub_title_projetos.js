@@ -4,8 +4,8 @@ export default class Sub_title_projetos extends Component {
   render() {
     return (
       <>
-        <div style={{ marginLeft: 20 }}>
-          <h1 className="fs-1 text-white">Todos os projetos</h1>
+        <div style={{ marginLeft: "25%" }}>
+          <h1 className="fs-4 text-white">Todos os projetos</h1>
           <div
             style={{
               borderBlockEndColor: "#A020F0",

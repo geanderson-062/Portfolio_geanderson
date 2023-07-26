@@ -19,11 +19,12 @@ import Titlecontato from "./components/Title_contato";
 import Textsobre from "./components/Text_sobre";
 import Sectionhabilidades from "./components/Section_habilidades";
 import Sectioncontato from "./components/Section_contato";
+import Footer from "./components/Footer";
 
 function App() {
   return (
     <>
-      <div className="corPrimaria">
+      <div className="corPrimaria container">
         <Navbar />
         <Header />
         <Titlesobre />
@@ -35,6 +36,7 @@ function App() {
         <Subtitleprojetos />
         <Titlecontato />
         <Sectioncontato />
+        <Footer />
       </div>
     </>
   );
