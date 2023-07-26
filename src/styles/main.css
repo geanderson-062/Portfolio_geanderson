@@ -1,3 +1,19 @@
+
 .corPrimaria {
-    background-color: blueviolet;
+    background-color: #000;
+    
 }
+
+.corTitulo1 { 
+    color: #fff;
+   
+}
+.corTitulo2 { 
+    color: #434343da;
+    
+}
+.corTitulo3 { 
+    color: #A020F0;
+    
+}
+
