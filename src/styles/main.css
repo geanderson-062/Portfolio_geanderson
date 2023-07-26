@@ -1,3 +1,6 @@
+html {
+    background-color: #000;
+}
 
 .corPrimaria {
     background-color: #000;
@@ -9,7 +12,7 @@
    
 }
 .corTitulo2 { 
-    color: #434343da;
+    color: #606063;
     
 }
 .corTitulo3 { 
