@@ -16,18 +16,22 @@ import Titleprojetos from "./components/TItle_projetos";
 import Subtitledestaques from "./components/Sub_title_destaques";
 import Subtitleprojetos from "./components/Sub_title_projetos";
 import Titlecontato from "./components/Title_contato";
+import Textsobre from "./components/Text_sobre";
 
 function App() {
   return (
     <>
-      <Navbar />
-      <Header />
-      <Titlesobre />
-      <Titlehabilidades />
-      <Titleprojetos />
-      <Subtitledestaques />
-      <Subtitleprojetos />
-      <Titlecontato />
+      <div className="corPrimaria">
+        <Navbar />
+        <Header />
+        <Titlesobre />
+        <Textsobre />
+        <Titlehabilidades />
+        <Titleprojetos />
+        <Subtitledestaques />
+        <Subtitleprojetos />
+        <Titlecontato />
+      </div>
     </>
   );
 }
