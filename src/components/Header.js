@@ -29,9 +29,10 @@ function LottieAnimation() {
         style={{
           display: "flex",
           alignItems: "flex-start",
-          borderBlockEndColor: "#A020F0",
+          borderBlockEndColor: "#000",
           borderBlockEndStyle: "solid",
           borderBlockEndWidth: "5px",
+          marginTop: 60,
         }}
         className="corPrimaria"
       >
@@ -46,7 +47,7 @@ function LottieAnimation() {
               Geanderson ferreira
             </h1>
             <h1 className="fs-3 corTitulo2" style={{ marginLeft: 20 }}>
-              Desenvolvedor Front-end Web .
+              Desenvolvedor Front-end.
             </h1>
             <br />
             <div

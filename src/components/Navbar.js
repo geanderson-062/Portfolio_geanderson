@@ -63,11 +63,11 @@ export default function Navbar() {
   return (
     <>
       <nav
-        className="navbar corPrimaria"
+        className="navbar corPrimaria fixed-top"
         style={{
           borderBlockEndColor: "#A020F0",
           borderBlockEndStyle: "solid",
-          borderBlockEndWidth: "5px",
+          borderBlockEndWidth: "1px",
         }}
       >
         <div className="container-fluid">
