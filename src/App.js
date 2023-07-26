@@ -18,6 +18,7 @@ import Subtitleprojetos from "./components/Sub_title_projetos";
 import Titlecontato from "./components/Title_contato";
 import Textsobre from "./components/Text_sobre";
 import Sectionhabilidades from "./components/Section_habilidades";
+import Sectioncontato from "./components/Section_contato";
 
 function App() {
   return (
@@ -33,6 +34,7 @@ function App() {
         <Subtitledestaques />
         <Subtitleprojetos />
         <Titlecontato />
+        <Sectioncontato />
       </div>
     </>
   );
