@@ -1,6 +1,7 @@
 import React, { useEffect, useState } from "react";
 import lottie from "lottie-web";
 import animationData from "../animation/animation.json"; // Substitua pelo caminho para o arquivo JSON de animação
+import ScrollReveal from "scrollreveal";
 
 function LottieAnimation() {
   const [animationLoaded, setAnimationLoaded] = useState(false);
@@ -23,6 +24,18 @@ function LottieAnimation() {
     };
   }, []);
 
+  useEffect(() => {
+    // Configuração do Scroll Reveal
+    ScrollReveal().reveal(".reveal", {
+      delay: 200, // Atraso antes da animação começar em milissegundos
+      duration: 1000, // Duração da animação em milissegundos
+      distance: "30px", // Distância que o elemento se moverá na animação
+      origin: "bottom", // Origem da animação (top, bottom, left, right)
+      easing: "ease-out", // Easing function para a animação (pode ser "linear", "ease-in", "ease-out", "ease-in-out")
+      reset: true, // Define se a animação deve ser refeita sempre que o elemento se tornar visível novamente
+    });
+  }, []);
+
   return (
     <>
       <div
@@ -34,7 +47,7 @@ function LottieAnimation() {
           borderBlockEndWidth: "5px",
           marginTop: 60,
         }}
-        className="corPrimaria"
+        className="corPrimaria  area2 reveal"
       >
         <div style={{ flex: 1 }}>
           {/* Coloque aqui os elementos que deseja que fiquem à esquerda */}

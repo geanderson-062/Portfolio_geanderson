@@ -2,6 +2,10 @@ html {
     background-color: #000;
 }
 
+body { 
+    scroll-behavior: smooth;
+}
+
 .corPrimaria {
     background-color: #000;
     
@@ -20,3 +24,7 @@ html {
     
 }
 
+
+.area1,.area2,.area3,.area4,.area5,.area6,.area7,.area8,.area9,.area10,.area11,.area12,.area13,.area14{
+  visibility: hidden;
+}
