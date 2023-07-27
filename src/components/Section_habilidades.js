@@ -11,6 +11,7 @@ import {
 import React, { useEffect } from "react";
 import ScrollReveal from "scrollreveal";
 import "../styles/main.css";
+import "../styles/animation_card.css";
 
 function SkillIcons() {
   useEffect(() => {
@@ -46,7 +47,10 @@ function SkillIcons() {
         }}
       >
         <div className="col">
-          <div className="card" style={{ backgroundColor: "#000" }}>
+          <div
+            className="card CardAnimation"
+            style={{ backgroundColor: "#000" }}
+          >
             <div className="card-body text-center">
               <FaReact color="#A020F0" style={{ width: 50, height: 50 }} />
               <h6 className="fs-6 corTitulo3">React js</h6>
@@ -55,7 +59,10 @@ function SkillIcons() {
         </div>
 
         <div className="col">
-          <div className="card" style={{ backgroundColor: "#000" }}>
+          <div
+            className="card CardAnimation"
+            style={{ backgroundColor: "#000" }}
+          >
             <div className="card-body text-center">
               <FaHtml5 color="#A020F0" style={{ width: 50, height: 50 }} />
               <h6 className="fs6 corTitulo3">Html</h6>
@@ -64,7 +71,10 @@ function SkillIcons() {
         </div>
 
         <div className="col">
-          <div className="card" style={{ backgroundColor: "#000" }}>
+          <div
+            className="card CardAnimation"
+            style={{ backgroundColor: "#000" }}
+          >
             <div className="card-body text-center">
               <FaCss3Alt color="#A020F0" style={{ width: 50, height: 50 }} />
               <h6 className="fs6 corTitulo3">CSS</h6>
@@ -73,7 +83,10 @@ function SkillIcons() {
         </div>
 
         <div className="col">
-          <div className="card" style={{ backgroundColor: "#000" }}>
+          <div
+            className="card CardAnimation"
+            style={{ backgroundColor: "#000" }}
+          >
             <div className="card-body text-center">
               <FaPhp color="#A020F0" style={{ width: 50, height: 50 }} />
               <h6 className="fs6 corTitulo3">PHP</h6>
@@ -82,7 +95,10 @@ function SkillIcons() {
         </div>
 
         <div className="col">
-          <div className="card" style={{ backgroundColor: "#000" }}>
+          <div
+            className="card CardAnimation"
+            style={{ backgroundColor: "#000" }}
+          >
             <div className="card-body text-center">
               <FaPython color="#A020F0" style={{ width: 50, height: 50 }} />
               <h6 className="fs6 corTitulo3">Python</h6>
@@ -91,7 +107,10 @@ function SkillIcons() {
         </div>
 
         <div className="col">
-          <div className="card" style={{ backgroundColor: "#000" }}>
+          <div
+            className="card CardAnimation"
+            style={{ backgroundColor: "#000" }}
+          >
             <div className="card-body text-center">
               <FaFigma color="#A020F0" style={{ width: 50, height: 50 }} />
               <h6 className="fs6 corTitulo3">Figma</h6>
@@ -100,7 +119,10 @@ function SkillIcons() {
         </div>
 
         <div className="col">
-          <div className="card" style={{ backgroundColor: "#000" }}>
+          <div
+            className="card CardAnimation"
+            style={{ backgroundColor: "#000" }}
+          >
             <div className="card-body text-center">
               <FaReact color="#A020F0" style={{ width: 50, height: 50 }} />
               <h6 className="fs-6 corTitulo3">React native</h6>
@@ -109,7 +131,10 @@ function SkillIcons() {
         </div>
 
         <div className="col">
-          <div className="card" style={{ backgroundColor: "#000" }}>
+          <div
+            className="card CardAnimation"
+            style={{ backgroundColor: "#000" }}
+          >
             <div className="card-body text-center">
               <FaGithub color="#A020F0" style={{ width: 50, height: 50 }} />
               <h6 className="fs6 corTitulo3">Github</h6>

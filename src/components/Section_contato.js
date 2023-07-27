@@ -1,6 +1,7 @@
 import React, { useEffect } from "react";
 import ScrollReveal from "scrollreveal";
 import "../styles/main.css";
+import "../styles/animation_card.css";
 
 function SkillIcons() {
   useEffect(() => {
@@ -38,7 +39,10 @@ function SkillIcons() {
         }}
       >
         <div className="col">
-          <div className="card" style={{ backgroundColor: "#000" }}>
+          <div
+            className="card CardAnimation"
+            style={{ backgroundColor: "#000" }}
+          >
             <div className="card-body text-center">
               <svg
                 style={{ marginBlockEnd: 10, color: "#A020F0" }}
@@ -57,7 +61,10 @@ function SkillIcons() {
         </div>
 
         <div className="col">
-          <div className="card" style={{ backgroundColor: "#000" }}>
+          <div
+            className="card CardAnimation"
+            style={{ backgroundColor: "#000" }}
+          >
             <div className="card-body text-center">
               <svg
                 style={{ marginBlockEnd: 10, color: "#A020F0" }}
@@ -76,7 +83,10 @@ function SkillIcons() {
         </div>
 
         <div className="col">
-          <div className="card" style={{ backgroundColor: "#000" }}>
+          <div
+            className="card CardAnimation"
+            style={{ backgroundColor: "#000" }}
+          >
             <div className="card-body text-center">
               <svg
                 style={{ marginBlockEnd: 10, color: "#A020F0" }}
@@ -95,7 +105,10 @@ function SkillIcons() {
         </div>
 
         <div className="col">
-          <div className="card" style={{ backgroundColor: "#000" }}>
+          <div
+            className="card CardAnimation"
+            style={{ backgroundColor: "#000" }}
+          >
             <div className="card-body text-center">
               <svg
                 style={{ marginBlockEnd: 10, color: "#A020F0" }}

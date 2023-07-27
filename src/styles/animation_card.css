@@ -1,0 +1,25 @@
+
+.CardAnimation:hover{
+  
+  animation: movimenTar 1s ease forwards;
+
+  border-color: #A020F0;
+  box-shadow:  0px 0px 30px #A020F0; 
+
+}
+
+@keyframes movimenTar { 
+  
+  0% {
+
+    padding: 1rem;
+
+  } 
+
+  20% {
+
+    padding: 1rem;
+
+  }
+
+}

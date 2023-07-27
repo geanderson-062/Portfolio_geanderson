@@ -20,6 +20,8 @@ import Textsobre from "./components/Text_sobre";
 import Sectionhabilidades from "./components/Section_habilidades";
 import Sectioncontato from "./components/Section_contato";
 import Footer from "./components/Footer";
+import Carddestaques from "./components/Card_destaques";
+import Cardprojetos from "./components/Card_projetos";
 
 function App() {
   return (
@@ -33,7 +35,9 @@ function App() {
         <Sectionhabilidades />
         <Titleprojetos />
         <Subtitledestaques />
+        <Carddestaques />
         <Subtitleprojetos />
+        <Cardprojetos />
         <Titlecontato />
         <Sectioncontato />
         <Footer />
