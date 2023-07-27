@@ -7,6 +7,10 @@ const gean_dev = {
   href: "#",
   target: "_blank",
 };
+const sistema = {
+  href: "#",
+  target: "_blank",
+};
 const github = {
   href: "https://github.com/geanderson-062",
   target: "_blank",
@@ -217,8 +221,8 @@ export default function Navbar() {
 
                 <li className="nav-item dropdown">
                   <a
+                    {...sistema}
                     className="nav-link dropdown-toggle text-white"
-                    href="#"
                     id="offcanvasNavbarDropdown"
                     role="button"
                     data-bs-toggle="dropdown"
@@ -303,9 +307,7 @@ export default function Navbar() {
                       <hr className="dropdown-divider" />
                     </li>
                     <li>
-                      <a className="dropdown-item" href="#">
-                        Mais sistemas em breve
-                      </a>
+                      <p className="dropdown-item">Mais sistemas em breve</p>
                     </li>
                   </ul>
                 </li>
