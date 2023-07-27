@@ -5,6 +5,8 @@ import {
   FaPhp,
   FaPython,
   FaFigma,
+  FaGithub,
+  FaMysql,
 } from "react-icons/fa";
 
 function SkillIcons() {
@@ -21,7 +23,7 @@ function SkillIcons() {
       }}
     >
       <div
-        className="row row-cols-1 row-cols-md-3 g-4"
+        className="row row-cols-1 row-cols-md-4 g-4"
         style={{
           marginTop: 15,
           marginBlockEnd: 30,
@@ -79,6 +81,24 @@ function SkillIcons() {
             <div className="card-body text-center">
               <FaFigma color="#A020F0" style={{ width: 50, height: 50 }} />
               <h6 className="fs6 corTitulo3">Figma</h6>
+            </div>
+          </div>
+        </div>
+
+        <div className="col">
+          <div className="card" style={{ backgroundColor: "#000" }}>
+            <div className="card-body text-center">
+              <FaReact color="#A020F0" style={{ width: 50, height: 50 }} />
+              <h6 className="fs-6 corTitulo3">React native</h6>
+            </div>
+          </div>
+        </div>
+
+        <div className="col">
+          <div className="card" style={{ backgroundColor: "#000" }}>
+            <div className="card-body text-center">
+              <FaGithub color="#A020F0" style={{ width: 50, height: 50 }} />
+              <h6 className="fs6 corTitulo3">Github</h6>
             </div>
           </div>
         </div>
