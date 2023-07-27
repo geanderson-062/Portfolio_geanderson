@@ -20,8 +20,8 @@ import Textsobre from "./components/Text_sobre";
 import Sectionhabilidades from "./components/Section_habilidades";
 import Sectioncontato from "./components/Section_contato";
 import Footer from "./components/Footer";
-import Carddestaques from "./components/Card_destaques";
-import Cardprojetos from "./components/Card_projetos";
+import Carddestaques from "./components/Section_cards_destaque";
+import Cardprojetos from "./components/Section_cards_projeto";
 
 function App() {
   return (
