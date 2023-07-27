@@ -1,0 +1,34 @@
+.Line{ 
+    color: #606063;
+    font-family: monospace;
+    font-size: 3em;
+    border-right: 2px solid rgba(255, 255, 255, 765);
+    margin: o auto;
+    white-space: nowrap;
+    overflow: hidden;
+    max-width: 37%;
+
+}
+
+.ViewText{
+    animation: TextAnimation 500ms normal infinite steps(40), typing 4s steps(40) 1s normal both;
+}
+
+@keyframes typing {
+    from{
+        width: 0;
+    }
+    to{
+        width: 18em;
+    }
+}
+
+@keyframes TextAnimation{ 
+
+    from{
+        border-right-color: rgba(255, 255, 255, 765);
+    }
+    to { 
+        border-right-color: transparent;
+    }
+}
