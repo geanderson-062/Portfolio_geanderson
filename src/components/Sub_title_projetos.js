@@ -17,7 +17,10 @@ function ScrollRevealComponent() {
   }, []);
   return (
     <>
-      <div className="area10 reveal" style={{ marginLeft: "23%" }}>
+      <div
+        className="area10 reveal"
+        style={{ marginLeft: "23%", marginTop: 20 }}
+      >
         <h1 className="fs-4 text-white">Todos os projetos</h1>
         <div
           style={{
