@@ -18,11 +18,11 @@ function MeuComponente2() {
   };
 
   const acessar = {
-    href: "#",
+    href: "https://gf-livros.netlify.app/",
     target: "_blank",
   };
   const github = {
-    href: "#",
+    href: "https://github.com/geanderson-062/gf-livros",
     target: "_blank",
   };
 

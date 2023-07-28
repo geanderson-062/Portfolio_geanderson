@@ -18,12 +18,12 @@ function MeuComponente() {
   };
 
   const acessar = {
-    href: "#",
+    href: "https://cinema-extremo-lite.netlify.app/",
     target: "_blank",
   };
 
   const github = {
-    href: "#",
+    href: "https://github.com/geanderson-062/cinema-extremo-lite",
     target: "_blank",
   };
 

@@ -18,11 +18,11 @@ function MeuComponente() {
   };
 
   const acessar = {
-    href: "#",
+    href: "https://js-servicos-gerais.netlify.app/",
     target: "_blank",
   };
   const github = {
-    href: "#",
+    href: "https://github.com/geanderson-062/JS-servicos",
     target: "_blank",
   };
 
