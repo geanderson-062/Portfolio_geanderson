@@ -1,70 +1,92 @@
-# Getting Started with Create React App
+# README - Meu Portfólio
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+Este é um projeto React que contém uma série de componentes para criar uma página com informações pessoais e de contato. O projeto utiliza o framework Bootstrap para a estilização e conta com animações de revelação de elementos usando a biblioteca ScrollReveal.
 
-## Available Scripts
+## Instalação
 
-In the project directory, you can run:
+Para rodar o projeto em sua máquina local, siga os passos abaixo:
 
-### `npm start`
+1. Certifique-se de ter o Node.js instalado em sua máquina.
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
+2. Faça o clone deste repositório para sua máquina:
 
-The page will reload when you make changes.\
-You may also see any lint errors in the console.
+```
+git clone https://github.com/geanderson-062/Portfolio_geanderson.git
+```
 
-### `npm test`
+3. Acesse o diretório do projeto:
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+```
+cd Portfolio_geanderson
+```
 
-### `npm run build`
+4. Instale as dependências necessárias:
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
+```
+npm install
+```
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
+5. Inicie o servidor local:
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+```
+npm start
+```
 
-### `npm run eject`
+6. O projeto estará disponível no navegador no endereço `http://localhost:3000`.
 
-**Note: this is a one-way operation. Once you `eject`, you can't go back!**
+## Estrutura de Arquivos
 
-If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
+- **src/components**: Contém os componentes utilizados para construir a página.
 
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
+  - **Navbar**: Componente da barra de navegação.
+  - **Header**: Componente do cabeçalho da página.
+  - **TitleSobre**: Componente do título da seção "Sobre".
+  - **TextSobre**: Componente do texto da seção "Sobre".
+  - **TitleHabilidades**: Componente do título da seção "Habilidades".
+  - **SectionHabilidades**: Componente da seção de ícones de habilidades.
+  - **TitleProjetos**: Componente do título da seção "Projetos".
+  - **SubTitleDestaques**: Componente do subtítulo da seção de destaques de projetos.
+  - **SubTitleProjetos**: Componente do subtítulo da seção de projetos.
+  - **CardDestaques**: Componente dos cards de destaques de projetos.
+  - **CardProjetos**: Componente dos cards de projetos.
+  - **TitleContato**: Componente do título da seção de contato.
+  - **SectionContato**: Componente da seção de cards de contato.
+  - **Footer**: Componente do rodapé da página.
 
-You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
+- **src/styles**: Contém os arquivos de estilização CSS do projeto.
 
-## Learn More
+  - **main.css**: Estilos globais aplicados em todo o projeto.
+  - **animation_card.css**: Estilos específicos para as animações dos cards.
 
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
+- **src/App.js**: Componente principal da aplicação, que renderiza todos os componentes da página.
 
-To learn React, check out the [React documentation](https://reactjs.org/).
+- **src/index.js**: Ponto de entrada da aplicação.
 
-### Code Splitting
+## Funcionalidades
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
+O projeto contém uma página com as seguintes seções:
 
-### Analyzing the Bundle Size
+- Navbar: Barra de navegação com links para as seções da página.
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
+- Header: Cabeçalho com informações e uma imagem de destaque.
 
-### Making a Progressive Web App
+- Sobre: Seção com informações pessoais.
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
+- Habilidades: Seção com ícones das habilidades do desenvolvedor.
 
-### Advanced Configuration
+- Projetos: Seção com destaques e projetos.
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
+- Contato: Seção com cards para contato.
 
-### Deployment
+- Footer: Rodapé da página.
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
+O projeto utiliza animações de revelação de elementos ao fazer scroll na página, proporcionando uma experiência mais interativa ao usuário.
 
-### `npm run build` fails to minify
+## Contato
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+Se tiver alguma dúvida ou quiser contribuir para o projeto, sinta-se à vontade para entrar em contato através do email geanderson062@outlook.com.
+
+Espero que este README tenha sido útil e que você possa aproveitar e evoluir o projeto! 😊
+
+Atenciosamente,
+Geanderson Ferreira.
