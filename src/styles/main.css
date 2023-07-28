@@ -1,0 +1,27 @@
+html {
+    background-color: #000;
+    scroll-behavior: smooth;
+}
+
+.corPrimaria {
+    background-color: #000;
+    
+}
+
+.corTitulo1 { 
+    color: #fff;
+   
+}
+.corTitulo2 { 
+    color: #606063;
+    
+}
+.corTitulo3 { 
+    color: #A020F0;
+    
+}
+
+
+.area1,.area2,.area3,.area4,.area5,.area6,.area7,.area8,.area9,.area10,.area11,.area12,.area13,.area14{
+  visibility: hidden;
+}
