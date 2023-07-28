@@ -1,21 +1,21 @@
 {
   "files": {
-    "main.css": "/static/css/main.e2c51218.css",
-    "main.js": "/static/js/main.95426ed0.js",
-    "static/js/787.aeca62f9.chunk.js": "/static/js/787.aeca62f9.chunk.js",
-    "static/media/cinema-extremo-lite.png": "/static/media/cinema-extremo-lite.51391b27874fc7c07c5a.png",
-    "static/media/gf-livros.png": "/static/media/gf-livros.4b82b21699f3ab4c565b.png",
-    "static/media/js-servicos-gerais.png": "/static/media/js-servicos-gerais.fa390e3acb8547779d15.png",
-    "static/media/brazilianCoin.png": "/static/media/brazilianCoin.6be352cb5344dabed7e8.png",
-    "static/media/Jogo_da_Velha.png": "/static/media/Jogo_da_Velha.4f988fe7111f2e5ce290.png",
-    "static/media/onebithelth.png": "/static/media/onebithelth.7ff8950e0be516d1079b.png",
-    "index.html": "/index.html",
-    "main.e2c51218.css.map": "/static/css/main.e2c51218.css.map",
-    "main.95426ed0.js.map": "/static/js/main.95426ed0.js.map",
-    "787.aeca62f9.chunk.js.map": "/static/js/787.aeca62f9.chunk.js.map"
+    "main.css": "/Portfolio_geanderson/static/css/main.e2c51218.css",
+    "main.js": "/Portfolio_geanderson/static/js/main.c91974b1.js",
+    "static/js/787.aeca62f9.chunk.js": "/Portfolio_geanderson/static/js/787.aeca62f9.chunk.js",
+    "static/media/cinema-extremo-lite.png": "/Portfolio_geanderson/static/media/cinema-extremo-lite.51391b27874fc7c07c5a.png",
+    "static/media/gf-livros.png": "/Portfolio_geanderson/static/media/gf-livros.4b82b21699f3ab4c565b.png",
+    "static/media/js-servicos-gerais.png": "/Portfolio_geanderson/static/media/js-servicos-gerais.fa390e3acb8547779d15.png",
+    "static/media/brazilianCoin.png": "/Portfolio_geanderson/static/media/brazilianCoin.6be352cb5344dabed7e8.png",
+    "static/media/Jogo_da_Velha.png": "/Portfolio_geanderson/static/media/Jogo_da_Velha.4f988fe7111f2e5ce290.png",
+    "static/media/onebithelth.png": "/Portfolio_geanderson/static/media/onebithelth.7ff8950e0be516d1079b.png",
+    "index.html": "/Portfolio_geanderson/index.html",
+    "main.e2c51218.css.map": "/Portfolio_geanderson/static/css/main.e2c51218.css.map",
+    "main.c91974b1.js.map": "/Portfolio_geanderson/static/js/main.c91974b1.js.map",
+    "787.aeca62f9.chunk.js.map": "/Portfolio_geanderson/static/js/787.aeca62f9.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.e2c51218.css",
-    "static/js/main.95426ed0.js"
+    "static/js/main.c91974b1.js"
   ]
 }
