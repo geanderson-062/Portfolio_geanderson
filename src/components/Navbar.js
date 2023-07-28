@@ -20,7 +20,7 @@ const curriculo = {
   target: "_blank",
 };
 const contato = {
-  href: "#contato",
+  href: "https://api.whatsapp.com/send?phone=5581989196517&text=Olá quero conversar",
   target: "_blank",
 };
 const certificados = {
