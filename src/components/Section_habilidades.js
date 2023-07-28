@@ -6,6 +6,7 @@ import {
   FaPython,
   FaFigma,
   FaGithub,
+  FaBootstrap,
 } from "react-icons/fa";
 
 import React, { useEffect } from "react";
@@ -124,8 +125,8 @@ function SkillIcons() {
             style={{ backgroundColor: "#000" }}
           >
             <div className="card-body text-center">
-              <FaReact color="#A020F0" style={{ width: 50, height: 50 }} />
-              <h6 className="fs-6 corTitulo3">React native</h6>
+              <FaBootstrap color="#A020F0" style={{ width: 50, height: 50 }} />
+              <h6 className="fs-6 corTitulo3">Bootstrap</h6>
             </div>
           </div>
         </div>
