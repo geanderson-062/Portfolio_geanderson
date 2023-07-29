@@ -1,18 +1,15 @@
-import {
-  FaReact,
-  FaHtml5,
-  FaCss3Alt,
-  FaPhp,
-  FaPython,
-  FaFigma,
-  FaGithub,
-  FaBootstrap,
-} from "react-icons/fa";
-
 import React, { useEffect } from "react";
 import ScrollReveal from "scrollreveal";
 import "../styles/main.css";
 import "../styles/animation_card.css";
+
+//import cards
+import Githubcard from "./Cards/Cards_habilidades/Card_github";
+import Figmacard from "./Cards/Cards_habilidades/Card_figma";
+import Csscard from "./Cards/Cards_habilidades/Card_css";
+import Htmlcard from "./Cards/Cards_habilidades/Card_html";
+import Reactcard from "./Cards/Cards_habilidades/Card_react";
+import Bootstrapcard from "./Cards/Cards_habilidades/Card_bootstrap";
 
 function SkillIcons() {
   useEffect(() => {
@@ -39,7 +36,7 @@ function SkillIcons() {
       }}
     >
       <div
-        className="row row-cols-1 row-cols-md-4 g-4"
+        className="row row-cols-1 row-cols-md-3 g-4"
         style={{
           marginTop: 15,
           marginBlockEnd: 30,
@@ -47,101 +44,12 @@ function SkillIcons() {
           marginRight: 15,
         }}
       >
-        <div className="col">
-          <div
-            className="card CardAnimation"
-            style={{ backgroundColor: "#000" }}
-          >
-            <div className="card-body text-center">
-              <FaReact color="#A020F0" style={{ width: 50, height: 50 }} />
-              <h6 className="fs-6 corTitulo3">React js</h6>
-            </div>
-          </div>
-        </div>
-
-        <div className="col">
-          <div
-            className="card CardAnimation"
-            style={{ backgroundColor: "#000" }}
-          >
-            <div className="card-body text-center">
-              <FaHtml5 color="#A020F0" style={{ width: 50, height: 50 }} />
-              <h6 className="fs6 corTitulo3">Html</h6>
-            </div>
-          </div>
-        </div>
-
-        <div className="col">
-          <div
-            className="card CardAnimation"
-            style={{ backgroundColor: "#000" }}
-          >
-            <div className="card-body text-center">
-              <FaCss3Alt color="#A020F0" style={{ width: 50, height: 50 }} />
-              <h6 className="fs6 corTitulo3">CSS</h6>
-            </div>
-          </div>
-        </div>
-
-        <div className="col">
-          <div
-            className="card CardAnimation"
-            style={{ backgroundColor: "#000" }}
-          >
-            <div className="card-body text-center">
-              <FaPhp color="#A020F0" style={{ width: 50, height: 50 }} />
-              <h6 className="fs6 corTitulo3">PHP</h6>
-            </div>
-          </div>
-        </div>
-
-        <div className="col">
-          <div
-            className="card CardAnimation"
-            style={{ backgroundColor: "#000" }}
-          >
-            <div className="card-body text-center">
-              <FaPython color="#A020F0" style={{ width: 50, height: 50 }} />
-              <h6 className="fs6 corTitulo3">Python</h6>
-            </div>
-          </div>
-        </div>
-
-        <div className="col">
-          <div
-            className="card CardAnimation"
-            style={{ backgroundColor: "#000" }}
-          >
-            <div className="card-body text-center">
-              <FaFigma color="#A020F0" style={{ width: 50, height: 50 }} />
-              <h6 className="fs6 corTitulo3">Figma</h6>
-            </div>
-          </div>
-        </div>
-
-        <div className="col">
-          <div
-            className="card CardAnimation"
-            style={{ backgroundColor: "#000" }}
-          >
-            <div className="card-body text-center">
-              <FaBootstrap color="#A020F0" style={{ width: 50, height: 50 }} />
-              <h6 className="fs-6 corTitulo3">Bootstrap</h6>
-            </div>
-          </div>
-        </div>
-
-        <div className="col">
-          <div
-            className="card CardAnimation"
-            style={{ backgroundColor: "#000" }}
-          >
-            <div className="card-body text-center">
-              <FaGithub color="#A020F0" style={{ width: 50, height: 50 }} />
-              <h6 className="fs6 corTitulo3">Github</h6>
-            </div>
-          </div>
-        </div>
+        <Reactcard />
+        <Htmlcard />
+        <Csscard />
+        <Bootstrapcard />
+        <Figmacard />
+        <Githubcard />
       </div>
     </div>
   );

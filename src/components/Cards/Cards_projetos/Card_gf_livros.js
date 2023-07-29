@@ -29,7 +29,7 @@ function MeuComponente2() {
   return (
     <>
       <div
-        className="col"
+        className="col area11C reveal"
         onMouseEnter={handleMouseEnter2}
         onMouseLeave={handleMouseLeave2}
         style={{ cursor: "pointer" }}

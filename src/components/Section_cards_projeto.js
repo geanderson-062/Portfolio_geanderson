@@ -1,15 +1,27 @@
-import React from "react";
+import React, { useEffect } from "react";
+import ScrollReveal from "scrollreveal";
 
 //importando os cards
 import Cardjsservicos from "./Cards/Cards_projetos/Card_js_servicos";
 import Cardgflivros from "./Cards/Cards_projetos/Card_gf_livros";
 import Cardcinema from "./Cards/Cards_projetos/Card_cinema";
 
-export default function Section_cards_projeto() {
+function Section_cards_projeto() {
   const github = {
     href: "https://github.com/geanderson-062?tab=repositories",
     target: "_blank",
   };
+  useEffect(() => {
+    // Configuração do Scroll Reveal
+    ScrollReveal().reveal(".reveal", {
+      delay: 200, // Atraso antes da animação começar em milissegundos
+      duration: 1000, // Duração da animação em milissegundos
+      distance: "30px", // Distância que o elemento se moverá na animação
+      origin: "bottom", // Origem da animação (top, bottom, left, right)
+      easing: "ease-out", // Easing function para a animação (pode ser "linear", "ease-in", "ease-out", "ease-in-out")
+      reset: true, // Define se a animação deve ser refeita sempre que o elemento se tornar visível novamente
+    });
+  }, []);
   return (
     <>
       <div
@@ -20,7 +32,11 @@ export default function Section_cards_projeto() {
         <Cardgflivros />
         <Cardcinema />
         <div />
-        <div class="btn-group" role="group" aria-label="Basic outlined example">
+        <div
+          className="btn-group area13C reveal"
+          role="group"
+          aria-label="Basic outlined example"
+        >
           <a {...github} type="button" class="btn btn-outline-light fs-5">
             Mais projetos
             <svg
@@ -40,3 +56,5 @@ export default function Section_cards_projeto() {
     </>
   );
 }
+
+export default Section_cards_projeto;
