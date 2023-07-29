@@ -4,7 +4,7 @@ Este é um projeto React que contém uma série de componentes para criar uma p�
 
 ## Screenshots
 
-![telas do app](https://github.com/geanderson-062/Portfolio_geanderson/blob/main/screenshot/localhost_3000_Portfolio_geanderson.png)
+![telas do app](https://github.com/geanderson-062/Portfolio_geanderson/blob/main/screenshot/geanderson-062.github.io_Portfolio_geanderson_.png)
 
 ## Instalação
 
