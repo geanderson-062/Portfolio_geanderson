@@ -28,7 +28,7 @@ function SkillIcons() {
   };
   return (
     <div
-      className="col"
+      className="col area6C reveal"
       onMouseEnter={handleMouseEnterGithub}
       onMouseLeave={handleMouseLeaveGithub}
     >

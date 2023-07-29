@@ -24,7 +24,7 @@ function MeuComponente() {
   return (
     <>
       <div
-        class="col"
+        class="col area9C reveal"
         onMouseEnter={handleMouseEnter}
         onMouseLeave={handleMouseLeave}
         style={{ cursor: "pointer" }}

@@ -28,7 +28,7 @@ function SkillIcons() {
   };
   return (
     <div
-      className="col"
+      className="col area5C reveal"
       onMouseEnter={handleMouseEnterFigma}
       onMouseLeave={handleMouseLeaveFigma}
     >

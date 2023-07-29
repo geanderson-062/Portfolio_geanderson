@@ -23,7 +23,7 @@ function MeuComponente() {
     <>
       <a {...Email} style={{ textDecoration: "none" }}>
         <div
-          className="col"
+          className="col area14C reveal"
           onMouseEnter={handleMouseEnterEmail}
           onMouseLeave={handleMouseLeaveEmail}
           style={{ cursor: "pointer" }}

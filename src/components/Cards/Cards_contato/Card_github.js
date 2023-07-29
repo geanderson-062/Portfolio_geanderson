@@ -23,7 +23,7 @@ function Github() {
     <>
       <a {...Git} style={{ textDecoration: "none" }}>
         <div
-          className="col"
+          className="col area15C reveal"
           onMouseEnter={handleMouseEnterGit}
           onMouseLeave={handleMouseLeaveGit}
           style={{ cursor: "pointer" }}

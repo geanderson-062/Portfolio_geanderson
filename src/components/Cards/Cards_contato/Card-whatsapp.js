@@ -23,7 +23,7 @@ function MeuComponente() {
     <>
       <a {...Whatsapp} style={{ textDecoration: "none" }}>
         <div
-          className="col"
+          className="col area17C reveal"
           onMouseEnter={handleMouseEnterWhatsapp}
           onMouseLeave={handleMouseLeaveWhatsapp}
           style={{ cursor: "pointer" }}
