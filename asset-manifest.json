@@ -1,0 +1,21 @@
+{
+  "files": {
+    "main.css": "/Portfolio_geanderson/static/css/main.d8a5ab57.css",
+    "main.js": "/Portfolio_geanderson/static/js/main.a2406c86.js",
+    "static/js/787.aeca62f9.chunk.js": "/Portfolio_geanderson/static/js/787.aeca62f9.chunk.js",
+    "static/media/cinema-extremo-lite.png": "/Portfolio_geanderson/static/media/cinema-extremo-lite.51391b27874fc7c07c5a.png",
+    "static/media/gf-livros.png": "/Portfolio_geanderson/static/media/gf-livros.4b82b21699f3ab4c565b.png",
+    "static/media/js-servicos-gerais.png": "/Portfolio_geanderson/static/media/js-servicos-gerais.fa390e3acb8547779d15.png",
+    "static/media/brazilianCoin.png": "/Portfolio_geanderson/static/media/brazilianCoin.6be352cb5344dabed7e8.png",
+    "static/media/Jogo_da_Velha.png": "/Portfolio_geanderson/static/media/Jogo_da_Velha.4f988fe7111f2e5ce290.png",
+    "static/media/onebithelth.png": "/Portfolio_geanderson/static/media/onebithelth.7ff8950e0be516d1079b.png",
+    "index.html": "/Portfolio_geanderson/index.html",
+    "main.d8a5ab57.css.map": "/Portfolio_geanderson/static/css/main.d8a5ab57.css.map",
+    "main.a2406c86.js.map": "/Portfolio_geanderson/static/js/main.a2406c86.js.map",
+    "787.aeca62f9.chunk.js.map": "/Portfolio_geanderson/static/js/787.aeca62f9.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.d8a5ab57.css",
+    "static/js/main.a2406c86.js"
+  ]
+}
