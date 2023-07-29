@@ -2,6 +2,10 @@
 
 Este é um projeto React que contém uma série de componentes para criar uma página com informações pessoais e de contato. O projeto utiliza o framework Bootstrap para a estilização e conta com animações de revelação de elementos usando a biblioteca ScrollReveal.
 
+## Screenshots
+
+![telas do app](https://github.com/geanderson-062/Portfolio_geanderson/blob/main/screenshot/localhost_3000_Portfolio_geanderson.png)
+
 ## Instalação
 
 Para rodar o projeto em sua máquina local, siga os passos abaixo:
