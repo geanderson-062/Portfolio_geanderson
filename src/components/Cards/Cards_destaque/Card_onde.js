@@ -3,7 +3,7 @@ import React, { useState } from "react";
 import "../../../styles/main.css";
 import "../../../styles/animation_card.css";
 
-import Coin from "../../img/brazilianCoin.png";
+import Onde from "../../img/onde.png";
 
 function MeuComponente() {
   const [mostrarTexto, setMostrarTexto] = useState(false);
@@ -17,7 +17,7 @@ function MeuComponente() {
   };
 
   const github = {
-    href: "https://github.com/geanderson-062/app-BrazilianCoin-react-native",
+    href: "https://github.com/geanderson-062/Aplicativo-Onde-Estou",
     target: "_blank",
   };
 
@@ -30,14 +30,17 @@ function MeuComponente() {
         style={{ cursor: "pointer" }}
       >
         <div class="card CardAnimation" style={{ borderColor: "#000" }}>
-          <img src={Coin} alt="Imagem" />
+          <img src={Onde} alt="Imagem" />
           <div class="card-body corPrimaria">
             {mostrarTexto && (
               <>
-                <h5 class="card-title text-white">BrazillianCoin</h5>
+                <h5 class="card-title text-white">Onde estou?</h5>
                 <p class="card-text text-white">
-                  objetivo do app e mostrar a variação do valor do bitcoin e
-                  indicar lojas e sites confiaveis para trabalhar com bitcoin.
+                  "Onde Estou?" é um aplicativo que fornece a localização exata
+                  do usuário, mostrando detalhes como latitude, longitude e
+                  endereço, além de um link para o Google Maps. Perfeito para
+                  compartilhar sua localização em situações de emergência ou
+                  sociais.
                 </p>
                 <div
                   className="btn-group"

@@ -18,13 +18,13 @@ function ScrollRevealComponent() {
   return (
     <>
       <div className="area8 reveal" style={{ marginLeft: "23%" }}>
-        <h1 className="fs-4 text-white">Destaques</h1>
+        <h1 className="fs-4 text-white">Destaques em Mobile</h1>
         <div
           style={{
             borderBlockEndColor: "#A020F0",
             borderBlockEndStyle: "solid",
             borderBlockEndWidth: "5px",
-            maxWidth: 130,
+            maxWidth: 250,
           }}
         ></div>
       </div>
