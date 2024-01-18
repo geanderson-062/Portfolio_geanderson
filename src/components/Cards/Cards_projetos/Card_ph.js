@@ -3,7 +3,8 @@ import React, { useState } from "react";
 import "../../../styles/main.css";
 import "../../../styles/animation_card.css";
 
-import Coin from "../../img/brazilianCoin.png";
+//import da imagem
+import Imagem from "../../img/ph.png";
 
 function MeuComponente() {
   const [mostrarTexto, setMostrarTexto] = useState(false);
@@ -16,43 +17,57 @@ function MeuComponente() {
     setMostrarTexto(false);
   };
 
+  const acessar = {
+    href: "https://ph-suplementos.vercel.app/",
+    target: "_blank",
+  };
   const github = {
-    href: "https://github.com/geanderson-062/app-BrazilianCoin-react-native",
+    href: "https://github.com/geanderson-062/Ph-suplementos",
     target: "_blank",
   };
 
   return (
     <>
       <div
-        class="col area9C reveal"
+        className="col area10C reveal"
         onMouseEnter={handleMouseEnter}
         onMouseLeave={handleMouseLeave}
         style={{ cursor: "pointer" }}
       >
         <div class="card CardAnimation" style={{ borderColor: "#000" }}>
-          <img src={Coin} alt="Imagem" />
+          <img src={Imagem} alt="Imagem" />
           <div class="card-body corPrimaria">
             {mostrarTexto && (
               <>
-                <h5 class="card-title text-white">BrazillianCoin</h5>
-                <p class="card-text text-white">
-                  objetivo do app e mostrar a variação do valor do bitcoin e
-                  indicar lojas e sites confiaveis para trabalhar com bitcoin.
+                <h5 className="card-title text-white text-center">
+                  Ph Suplementos
+                </h5>
+                <p className="card-text text-white text-center">
+                  Ph Suplementos, a plataforma online exclusiva para
+                  empreendedores no ramo de suplementação alimentar, é projetada
+                  para atender às demandas específicas daqueles que
+                  comercializam produtos consumidos por entusiastas de academia.
                 </p>
+
                 <div
                   className="btn-group"
-                  style={{ marginLeft: "10%", marginRight: "10%" }}
+                  style={{ marginLeft: "20%", marginRight: "20%" }}
                   role="group"
                   aria-label="Basic outlined example"
                 >
+                  <a
+                    {...acessar}
+                    type="button"
+                    className="btn btn-outline-light"
+                  >
+                    Acessar
+                  </a>
                   <a
                     {...github}
                     type="button"
                     className="btn btn-outline-light"
                   >
-                    Repositório
                     <svg
-                      style={{ marginLeft: 5 }}
                       xmlns="http://www.w3.org/2000/svg"
                       width="16"
                       height="16"
